@@ -20,7 +20,7 @@ class App extends React.Component {
     //   console.log(data)
     // })
 
-    axios.get("http://localhost:3000/").then(res => {
+    axios.get("https://abc-api.herokuapp.com/").then(res => {
       this.setState({
         products: res.data
       })
